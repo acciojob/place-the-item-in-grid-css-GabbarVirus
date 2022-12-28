@@ -1,2 +1,14 @@
-
-/* Your CSS Code here. */
+.holder{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    background-color: lightgreen;
+}
+.boxes{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+}
